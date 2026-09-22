@@ -12,7 +12,11 @@ int main()
     Player player(name, 0);
 
     cout << "Hi, " << name << endl;
+    
+    Card card(Suit::Hearts, Rank::Ace);
 
+    cout << card.getValue();
+    
     system("pause"); 
     
     return 0;
